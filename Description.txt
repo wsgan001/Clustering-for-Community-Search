@@ -1,0 +1,5 @@
+Retweet-graph:  An edge exists between two users u and v if there is at least one retweet between them that use the hashtag.
+File format:  u \t v 
+
+UserLabels.txt: Contains the label (0 or 1 for Clinton or Trump) for each user. Some users may not appear in this file, this means that we do not have information about their label. There is no user with both labels.
+File format:  u \t Label
